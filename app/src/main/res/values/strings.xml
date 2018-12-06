@@ -6,5 +6,12 @@
     <string name="lancerrecherche">Lancer une recherche</string>
     <string name="debut">Date de début de reservation</string>
     <string name="fin">Date de fin de reservation</string>
+
+    <!-- egtrgtr -->
     <string name="recherche">Rechercher</string>
+    <string name="renseignement">Merci de renseigner votre profil:</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="datenaissance">Date de naissance</string>
+    <string name="valider">Valider</string>
 </resources>
