@@ -2,4 +2,6 @@
 <resources>
     <dimen name="titleSize">55dp</dimen>
     <dimen name="renseigementSize">25dp</dimen>
+    <dimen name="btnSize">300dp</dimen>
+    <dimen name="btnTextSize">20dp</dimen>
 </resources>

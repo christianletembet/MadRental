@@ -23,23 +23,36 @@
             android:gravity="center">
 
             <TextView
+                android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorRed"
+                android:layout_margin="15dp"
                 android:text="@string/title"
                 android:textSize="@dimen/titleSize"/>
 
             <Button
-            android:layout_width="wrap_content"
+                android:id="@+id/btnReservation"
+            android:layout_width="@dimen/btnSize"
             android:layout_height="wrap_content"
             android:text="@string/reservations"
-                android:textAllCaps="false"/>
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/btnTextSize"
+                android:textAllCaps="false"
+                android:background="@drawable/gradient"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:id="@+id/btnProfil"
+                android:layout_width="@dimen/btnSize"
                 android:layout_height="wrap_content"
                 android:text="@string/profil"
+                android:layout_margin="15dp"
+                android:textColor="@color/colorWhite"
                 android:textAllCaps="false"
-                android:layout_margin="15dp"/>
+                android:textSize="@dimen/btnTextSize"
+                android:background="@drawable/gradient"
+
+                />
             
             <TextView
                 android:layout_width="wrap_content"
@@ -62,10 +75,15 @@
 
                 />
             <Button
-                android:layout_width="wrap_content"
+                android:id="@+id/btnRechercher"
+                android:layout_width="@dimen/btnSize"
                 android:layout_height="wrap_content"
                 android:text="@string/recherche"
-                android:textAllCaps="false"/>
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:textSize="@dimen/btnTextSize"
+                android:layout_margin="15dp"
+                android:background="@drawable/gradient"/>
 
 
 
