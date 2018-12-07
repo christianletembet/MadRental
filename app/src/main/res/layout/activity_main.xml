@@ -14,6 +14,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:padding="20dp"
         >
 
         <LinearLayout
@@ -39,6 +40,7 @@
                 android:textColor="@color/colorWhite"
                 android:textSize="@dimen/btnTextSize"
                 android:textAllCaps="false"
+                android:onClick="reservations"
                 android:background="@drawable/gradient"/>
 
             <Button
@@ -50,6 +52,7 @@
                 android:textColor="@color/colorWhite"
                 android:textAllCaps="false"
                 android:textSize="@dimen/btnTextSize"
+                android:onClick="profil"
                 android:background="@drawable/gradient"
 
                 />
@@ -61,17 +64,23 @@
                 android:layout_margin="15dp"/>
 
             <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:hint="@string/debut"
                 android:inputType="date"
+                android:background="@drawable/boutons"
+                android:paddingLeft="20dp"
                 />
 
             <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
                 android:hint="@string/fin"
                 android:inputType="date"
+                android:background="@drawable/boutons"
+                android:paddingLeft="20dp"
+
 
                 />
             <Button
