@@ -14,4 +14,10 @@
     <string name="prenom">Prenom</string>
     <string name="datenaissance">Date de naissance</string>
     <string name="valider">Valider</string>
+    
+    <!-- PAGE RESERVATION ACTIVITE 2/2 -->
+    <string name="demandes">Merci de saisir ici vos demandes spécifiques : </string>
+    <string name="message">Votre message...</string>
+    <string name="finalPrice">Prix final : </string>
+    
 </resources>

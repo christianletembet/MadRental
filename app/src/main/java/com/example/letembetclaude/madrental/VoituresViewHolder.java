@@ -8,6 +8,7 @@ public class VoituresViewHolder extends RecyclerView.ViewHolder
 {
     // TextView intitulé course :
     public TextView textViewLibelleVoitures;
+
     // Constructeur :
     public VoituresViewHolder(View itemView)
     {
