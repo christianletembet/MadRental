@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        DataBaseHelper databaseHelper = new DataBaseHelper(this);
+        databaseHelper.getWritableDatabase();
 
         tvTitle = (TextView)findViewById(R.id.tvTitle);
         btnReservation = (Button)findViewById(R.id.btnReservation);

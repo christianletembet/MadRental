@@ -9,10 +9,11 @@ public final class BaseContrat
     // contenu de la table "RESERVATIONS" :
     public static class ReservationContrat implements BaseColumns
     {
-        public static final String TABLE_RESERVATION = "RESERVATION";
+        public static final String TABLE_RESERVATION = "RESERVATIONS";
         public static final String COLONNE_INTITULE = "intitule";
         public static final String COLONNE_PRIX = "prix";
         public static final String COLONNE_DEBUT_DATE = "debutDate";
         public static final String COLONNE_FIN_DATE = "finDate";
+        public static final String COLONNE_IMAGE_URL = "imageURL";
     }
 }
