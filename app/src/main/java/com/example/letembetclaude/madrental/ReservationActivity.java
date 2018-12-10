@@ -24,8 +24,10 @@ public class ReservationActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 // contenu d'exemple :
         List<Voiture> listVoitures = new ArrayList<>();
-        listVoitures.add(new Voiture("Voiture 1 "));
-        listVoitures.add(new Voiture("Voiture 2 "));
+
+        listVoitures.add(new Voiture("Voiture 1 ","21-10-2018",180 ,"27-10-2018",""));
+        listVoitures.add(new Voiture("Voiture 2 ","27-10-2018",188,"29-10-2018",""));
+
 // adapter :
         VoituresAdapter VoituresAdapter = new VoituresAdapter(listVoitures);
         recyclerView.setAdapter(VoituresAdapter);

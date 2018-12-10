@@ -26,7 +26,13 @@ public class VoituresAdapter extends RecyclerView.Adapter<VoituresViewHolder>
     @Override
     public void onBindViewHolder(VoituresViewHolder holder, int position)
     {
+
         holder.textViewLibelleVoitures.setText(listeVoitures.get(position).intitule);
+        holder.textViewDebutDate.setText(listeVoitures.get(position).dateDebut);
+        holder.textViewFinDate.setText(listeVoitures.get(position).dateFin);
+        holder.textViewPrix.setText(String.valueOf(listeVoitures.get(position).prix));
+
+
     }
     @Override
     public int getItemCount()
