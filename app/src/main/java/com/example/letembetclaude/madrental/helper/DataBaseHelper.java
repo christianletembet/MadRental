@@ -1,8 +1,10 @@
-package com.example.letembetclaude.madrental;
+package com.example.letembetclaude.madrental.helper;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import com.example.letembetclaude.madrental.BaseContrat;
 
 public class DataBaseHelper extends SQLiteOpenHelper
 

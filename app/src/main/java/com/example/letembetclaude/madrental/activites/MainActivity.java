@@ -1,4 +1,4 @@
-package com.example.letembetclaude.madrental;
+package com.example.letembetclaude.madrental.activites;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.letembetclaude.madrental.helper.DataBaseHelper;
+import com.example.letembetclaude.madrental.R;
 
 public class MainActivity extends AppCompatActivity {
 

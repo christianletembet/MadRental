@@ -1,7 +1,9 @@
-package com.example.letembetclaude.madrental;
+package com.example.letembetclaude.madrental.activites;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.letembetclaude.madrental.R;
 
 public class EtapeReservation1Activity extends AppCompatActivity {
 

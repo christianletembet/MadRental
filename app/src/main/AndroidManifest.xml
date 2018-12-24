@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.letembetclaude.madrental">
 
+    <!-- This is required for Picasso to work. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+
+        <activity android:name=".activites.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,14 +21,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ReservationActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".activites.ReservationActivity"
+            android:parentActivityName=".activites.MainActivity" />
         <activity
-            android:name=".ProfilActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".RechercheActivity" />
-        <activity android:name=".EtapeReservation1Activity" />
-        <activity android:name=".EtapeReservation2Activity"></activity>
+            android:name=".activites.ProfilActivity"
+            android:parentActivityName=".activites.MainActivity" />
+        <activity android:name=".activites.RechercheActivity" />
+        <activity android:name=".activites.EtapeReservation1Activity" />
+        <activity android:name=".activites.EtapeReservation2Activity"></activity>
     </application>
 
 </manifest>

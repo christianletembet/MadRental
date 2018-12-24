@@ -1,9 +1,13 @@
-package com.example.letembetclaude.madrental;
+package com.example.letembetclaude.madrental.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
+import com.example.letembetclaude.madrental.BaseContrat;
+import com.example.letembetclaude.madrental.helper.DataBaseHelper;
+import com.example.letembetclaude.madrental.dto.ReservationsDTO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,7 +57,7 @@ public class ReservationsDAO {
                     listeReservations.add(new ReservationsDTO(cursor.getString(cursor.getColumnIndex(BaseContrat.ReservationContrat.COLONNE_INTITULE)),
                             cursor.getString(cursor.getColumnIndex(BaseContrat.ReservationContrat.COLONNE_DEBUT_DATE)),
                             cursor.getString(cursor.getColumnIndex(BaseContrat.ReservationContrat.COLONNE_FIN_DATE)),
-                            cursor.getInt(cursor.getColumnIndex(BaseContrat.ReservationContrat.COLONNE_PRIX)),
+                            cursor.getDouble(cursor.getColumnIndex(BaseContrat.ReservationContrat.COLONNE_PRIX)),
                             cursor.getString(cursor.getColumnIndex(BaseContrat.ReservationContrat.COLONNE_IMAGE_URL))));
                     cursor.moveToNext();
                 }
