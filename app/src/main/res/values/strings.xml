@@ -14,7 +14,14 @@
     <string name="prenom">Prenom</string>
     <string name="datenaissance">Date de naissance</string>
     <string name="valider">Valider</string>
-    
+    <string name="erreurnom">Entrez un nom</string>
+    <string name="erreurprenom">Entrez un prénom</string>
+    <string name="erreurdatenaissance">Entrez une date</string>
+    <string name="dateinvalide">Date invalide</string>
+    <string name="profilajour">Profil mis à jour</string>
+
+
+
     <!-- PAGE RESERVATION ACTIVITE 2/2 -->
     <string name="demandes">Merci de saisir ici vos demandes spécifiques : </string>
     <string name="message">Votre message...</string>
