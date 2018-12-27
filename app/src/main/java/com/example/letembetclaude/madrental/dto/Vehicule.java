@@ -1,4 +1,4 @@
-package com.example.letembetclaude.madrental;
+package com.example.letembetclaude.madrental.dto;
 
 import com.example.letembetclaude.madrental.dto.Equipement;
 import com.example.letembetclaude.madrental.dto.Option;

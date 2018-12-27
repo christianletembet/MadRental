@@ -1,4 +1,6 @@
 <resources>
+
+    <!-- PAGE MAIN -->
     <string name="app_name">MadRental</string>
     <string name="title">Mad Rental</string>
     <string name="reservations">Mes reservations</string>
@@ -7,6 +9,8 @@
     <string name="debut">Date de début de reservation</string>
     <string name="fin">Date de fin de reservation</string>
     <string name="recherche">Rechercher</string>
+    <string name="erreurdate">Entrez une date</string>
+    <string name="infoprofil">Créez un profil ! </string>
 
     <!-- PAGE PROFIL -->
     <string name="renseignement">Merci de renseigner votre profil:</string>
